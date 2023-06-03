@@ -18,3 +18,20 @@ var carouselSlide = document.querySelector('.carousel-slide');
     }
 
     setInterval(carousel, 3000); // Cambiar de imagen cada 3 segundos
+
+    
+    
+    
+    function cambiarImagen(nuevaImagen) {
+      var imagen = document.getElementById("miImagen");
+      imagen.src = nuevaImagen;
+      }
+      
+      function restaurarImagen(imagenOriginal) {
+      
+      
+      var imagen = document.getElementById("miImagen");
+      imagen.
+      
+      src = imagenOriginal;
+      }
